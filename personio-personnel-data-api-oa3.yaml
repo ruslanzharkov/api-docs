@@ -330,7 +330,7 @@ paths:
                             type: standard
                             universal_id: subcompany
                           office:
-                            label: Office
+                            label: Workplace
                             value:
                               type: Office
                               attributes:
@@ -498,7 +498,7 @@ paths:
                       example: IT
                     office:
                       type: string
-                      description: The office employee belongs to. Should be predefined in Personio. Otherwise will be ignored with showing meta error in the response.
+                      description: The workplace employee belongs to. Should be predefined in Personio. Otherwise will be ignored with showing meta error in the response.
                       example: Madrid
                     hire_date:
                       type: string
@@ -666,7 +666,7 @@ paths:
                       example: IT
                     office:
                       type: string
-                      description: The office employee belongs to. Should be predefined in Personio. Otherwise will be ignored with showing meta error in the response.
+                      description: The workplace employee belongs to. Should be predefined in Personio. Otherwise will be ignored with showing meta error in the response.
                       example: Madrid
                     hire_date:
                       type: string
@@ -893,7 +893,7 @@ paths:
                           type: standard
                           universal_id: subcompany
                         office:
-                          label: Office
+                          label: Workplace
                           value:
                             type: Office
                             attributes:
@@ -3357,7 +3357,7 @@ components:
       type: object
       properties:
         label:
-          example: Office
+          example: Workplace
         value:
           type: object
           properties:
